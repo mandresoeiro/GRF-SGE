@@ -1,0 +1,34 @@
+site_name: Academus Docs
+site_url: ""
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: indigo
+  features:
+    - navigation.instant
+    - navigation.footer
+    - content.code.copy
+
+plugins:
+  - search
+  - awesome-pages
+  - mkdocstrings:
+      default_handler: python
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - codehilite
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Início: index.md
+  - Backend:
+      - Arquitetura: backend/arquitetura.md
+      - APIs: backend/apis.md
+      - Models: backend/models.md

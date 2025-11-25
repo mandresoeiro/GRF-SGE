@@ -1,0 +1,262 @@
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/media
+/staticfiles
+/static_root
+
+# Ambientes Virtuais
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Poetry
+poetry.lock
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# Sistema Operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# pytest
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Caches
+*.cache
+.sass-cache/
+
+# Arquivos de compilação
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+db.sqlite3.backup.*
+
+# Pasta de backups (NÃO versionar backups locais)
+/backups/
+
+# Logs gerais
+*.log
+logs/
+*.log.*
+
+# Arquivos temporários
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Pasta de arquivos temporários (NÃO versionar)
+/temp/
+nano.*.save
+et
+et"
+s
+*.save
+
+# Arquivos de configuração local
+.env.local
+.env.*.local
+secrets.json
+secrets.yaml
+
+# Node (caso use frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Banco de dados
+*.sqlite
+*.sqlite3
+*.db
+
+# Media files (uploads de usuários) - NUNCA versione imagens/arquivos grandes
+media/
+!media/.gitkeep
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.pdf
+
+# Static files coletados
+staticfiles/
+static_root/
+collected_static/
+
+# Migrations geradas localmente (descomente se preferir não versionar)
+# */migrations/00*.py
+
+# Arquivos de teste
+test_*.py
+*_test.py
+
+# Profiling
+*.prof
+
+# Security
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# AWS
+.aws/
+*.pem
+
+# Google Cloud
+.gcloud/
+*.json
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Scripts locais
+local_*.sh
+test_script.sh
+
+# Arquivos específicos do projeto
+# Adicione aqui arquivos específicos que não devem ser versionados
