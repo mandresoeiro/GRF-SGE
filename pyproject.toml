@@ -26,6 +26,9 @@ mkdocs-material = "^9.5.0"
 mkdocs-awesome-pages-plugin = "^2.9.2"
 mkdocstrings = "^0.26.0"
 mkdocstrings-python = "^1.10.3"
+mysqlclient = "^2.2.7"
+django-cors-headers = "^4.9.0"
+djangorestframework-simplejwt = "^5.5.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.3.0"
